@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     395263962779770881       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "Bivium-B Non-Linear Feedback Shift Register"      # Project title
+  wokwi_id:     395357890431011841       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "Trivium Non-Linear Feedback Shift Register"      # Project title
   author:       "icaris lab"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "Bivium-B stream cipher used as a non-linear feedback shift register."      # One line description of what your project does
+  description:  "Trivium stream cipher used as a non-linear feedback shift register."      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     50000000       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -25,12 +25,12 @@ pinout:
 
   # Outputs
   uo[0]: "r000_val"
-  uo[1]: "r068_val"
-  uo[2]: "INTERM_fb"
-  uo[3]: "r065_val"
-  uo[4]: "r092_val"
-  uo[5]: "r161_val"
-  uo[6]: "r176_val"
+  uo[1]: "INTERM_fb"
+  uo[2]: "r092_val"
+  uo[3]: "r093_val"
+  uo[4]: "r176_val"
+  uo[5]: "r177_val"
+  uo[6]: "r287_val"
   uo[7]: "NLSFR_out"
 
   # Bidirectional pins
